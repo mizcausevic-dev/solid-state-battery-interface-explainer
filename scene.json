@@ -11,8 +11,8 @@
       "glyph": "plate",
       "label": "Layers",
       "role": "structure",
-      "x": 0.5,
-      "y": 0.16
+      "x": 0.14,
+      "y": 0.32
     },
     {
       "id": "n2",
@@ -20,23 +20,23 @@
       "label": "Discharge ion",
       "role": "path",
       "x": 0.5,
-      "y": 0.3
+      "y": 0.32
     },
     {
       "id": "n3",
       "glyph": "electron",
       "label": "External electron paths",
       "role": "path",
-      "x": 0.5,
-      "y": 0.44
+      "x": 0.86,
+      "y": 0.32
     },
     {
       "id": "n4",
       "glyph": "plate",
       "label": "Interfacial void",
       "role": "structure",
-      "x": 0.5,
-      "y": 0.58
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n5",
@@ -44,15 +44,15 @@
       "label": "Improved-contact design",
       "role": "structure",
       "x": 0.5,
-      "y": 0.72
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "nanowire",
       "label": "Filament-risk inset",
       "role": "path",
-      "x": 0.5,
-      "y": 0.86
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
