@@ -35,8 +35,8 @@
       cu: "Cu current collector",
     },
     ion: "Li+ path",
-    electron: "e\u2212 path",
-    blocked: "e\u2212 blocked",
+    electron: "e− path",
+    blocked: "e− blocked",
     blockedNote: "Ideal electrolyte does not carry electrons.",
     load: "External load",
     void: "Interfacial void",
@@ -163,6 +163,7 @@
     };
   }
 
+  /** 0 at a contact bridge, up to 1 in a gap. voidAmt 0 means full contact. */
   function gapAt(u, voidAmt) {
     if (voidAmt <= 0) return 0;
     const centers = [0.22, 0.5, 0.78];
